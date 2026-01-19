@@ -78,7 +78,7 @@ main {
   margin: 0 auto;
 }
 
-header nav {
+/* header nav {
   width: 430px;
   margin: 30px auto;
   border-radius: 100px;
@@ -117,11 +117,12 @@ header nav ul li:hover {
 
 header nav ul li a {
   color: var(--text-color);
-}
+} */
 
 header img {
   border-radius: 10%;
-  margin-top: 160px;
+  /* margin-top: 160px; */
+  margin-top: 50px;
 }
 
 header h1 {
@@ -149,13 +150,14 @@ header p {
   color: var(--text-color);
   cursor: pointer;
   display: inline-block;
-  margin: 20px auto;
+  margin: 50px auto;
   text-align: center;
   transition: transform 0.3s ease;
   animation: breathing-border 1.8s ease-in-out infinite;
   white-space: nowrap;
   position: relative;
   z-index: 1;
+
 }
 
 .specific:hover {
@@ -319,13 +321,13 @@ hr {
 }
 
 @media (max-width: 768px) {
-  header nav {
+  /* header nav {
     width: 100%;
   }
 
   header nav ul {
     gap: 20px;
-  }
+  } */
   header h1 {
     font-size: 32px;
   }
