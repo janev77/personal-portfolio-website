@@ -374,6 +374,11 @@ hr {
     margin: 0 auto;
   }
 
+  .card--no-image .card__title {
+    font-size: 16px;
+    word-break: break-word;
+  }
+
   .contact {
     display: flex;
     flex-direction: column;
