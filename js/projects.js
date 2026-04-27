@@ -3,7 +3,7 @@ const FEATURED_REPOS = [
   "janev77/GymManagementSystem",
   "janev77/ReportHubSystem",
   "janev77/MSE_Scraper",
-  "janev77/astrodelivery",
+  // "janev77/astrodelivery",
 ];
 
 async function fetchRepo(slug) {

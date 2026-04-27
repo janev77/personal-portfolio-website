@@ -322,6 +322,48 @@ hr {
   border: none;
 }
 
+#certifications {
+  padding-top: 40px;
+}
+
+#certifications h2 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#certifications h4 {
+  padding-bottom: 10px;
+}
+
+#certifications a {
+  font-size: 14px;
+  color: var(--green);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.2s ease;
+}
+
+#certifications a:hover {
+  color: var(--text-color);
+}
+
+#certifications a i {
+  font-size: 14px;
+  color: var(--green);
+}
+
+#certifications a:hover i {
+  color: var(--text-color);
+}
+
+#certifications > p {
+  padding: 20px 0;
+  border-top: 1px solid #232323;
+  border-bottom: 1px solid #232323;
+  margin: 20px 0;
+}
+
 #footer {
   padding-bottom: 100px;
 }
